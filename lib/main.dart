@@ -1,6 +1,7 @@
 //import 'package:dogs/profile_screen.dart';
 import 'package:flutter/material.dart';
-import 'deep_tree.dart';
+//import 'deep_tree.dart';
+import 'e_commerce_screen_before.dart';
 //import 'flex_screen.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: DeepTree(),
+      home: ECommerceScreen(),
     );
   }
 }
